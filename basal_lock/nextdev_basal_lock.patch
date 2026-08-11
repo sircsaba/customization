@@ -335,7 +335,7 @@ index 00000000..c0fa0dd0
 +
 +public extension Guardrail where Value == LoopQuantity {
 +    static let basalLockThreshold = Guardrail(
-+        absoluteBounds: LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 200)...LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 300),
++        absoluteBounds: LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 125)...LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 300),
 +        recommendedBounds: LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 220)...LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 300),
 +        startingSuggestion: LoopQuantity(unit: .milligramsPerDeciliter, doubleValue: 250)
 +    )
